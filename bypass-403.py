@@ -69,7 +69,7 @@ def send_request(url, header_name, value):
         else:
             color = "🟥"
 
-        # se houver redirect, capturar o destino final
+       
         redirect_to = ""
         if status >= 300 and status < 400:
             # pega só o Location da primeira resposta
